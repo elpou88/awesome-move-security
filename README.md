@@ -15,26 +15,21 @@
   - [Sui CTFs and Challenges](#sui-ctfs-and-challenges)
   - [Sui Security Training](#sui-security-training)
   - [Sui Exploits and Incidents](#sui-exploits-and-incidents)
-  - [Sui Bug Bounty Programs](#sui-bug-bounty-programs)
 
 - [APTOS MOVE SECURITY](#aptos-move-security)
   - [Aptos-Specific Security Articles](#aptos-specific-security-articles)
   - [Aptos Security Tools](#aptos-security-tools)
   - [Aptos Public Audit Reports](#aptos-public-audit-reports)
   - [Aptos CTFs and Challenges](#aptos-ctfs-and-challenges)
-  - [Aptos Security Training](#aptos-security-training)
   - [Aptos Exploits and Incidents](#aptos-exploits-and-incidents)
   - [Aptos Bug Bounty Programs](#aptos-bug-bounty-programs)
+  - [Aptos Security Documentation](#aptos-security-documentation)
 
 - [GENERAL MOVE SECURITY](#general-move-security)
   - [General Move Security Articles](#general-move-security-articles)
-  - [Dialect Comparison Resources](#dialect-comparison-resources)
-  - [Cross-Platform Security Tools](#cross-platform-security-tools)
-  - [General Move CTFs](#general-move-ctfs)
-  - [Academic Research and Papers](#academic-research-and-papers)
-  - [Common Vulnerability Patterns](#common-vulnerability-patterns)
   - [Cheatsheets and Quick References](#cheatsheets-and-quick-references)
   - [Security Audit Firms](#security-audit-firms)
+  - [Cross-Platform Bug Bounty Programs](#cross-platform-bug-bounty-programs)
 
 ---
 
@@ -68,13 +63,11 @@
 |------|-------------|------|
 | **Sui Prover** | Formal verification tool by Asymptotic for mathematically verifying contract properties | [GitHub](https://github.com/asymptotic-code/sui-prover) |
 
-
 ### Fuzzing Tools
 
 | Tool | Description | Link |
 |------|-------------|------|
 | **Sui Fuzzer** | FuzzingLabs fuzzing tool for Sui contracts | [GitHub](https://github.com/FuzzingLabs/sui-fuzzer) |
-
 
 ---
 
@@ -101,8 +94,6 @@
 
 ## Sui CTFs and Challenges
 
-TODO: merge into 1 section
-
 | Competition | Organizer | Link |
 |-------------|-----------|------|
 | **MoveCTF** | MoveBit, ChainFlag, OtterSec | [Website](https://movectf.movebit.xyz/) |
@@ -110,13 +101,13 @@ TODO: merge into 1 section
 | **MetaTrust Web3 Security CTF** | MetaTrust Labs, Mysten Labs | Various |
 | **Numen Cyber CTF 2023** | Numen Cyber | [GitHub](https://github.com/numencyber/NumenCTF_2023) |
 
-### Sui CTF Repositories
+**Challenge Repositories:**
 
 | Repository | Description | Link |
 |------------|-------------|------|
 | **MoveCTF-1st-Challenge** | First MoveCTF challenges | [GitHub](https://github.com/movectf/MoveCTF-1st-Challenge) |
 
-### Sui CTF Writeups
+**CTF Writeups:**
 
 | Writeup | Competition | Link |
 |---------|-------------|------|
@@ -137,7 +128,6 @@ TODO: merge into 1 section
 | Sui Object Model Workshop | [GitHub](https://github.com/sui-foundation/sui-object-model-workshop) |
 
 ### Third-Party Sui Training
-+ dodac nasze?
 
 | Course | Platform | Link |
 |--------|----------|------|
@@ -164,7 +154,7 @@ TODO: merge into 1 section
   - [Crypto News Coverage](https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/)
   - [CCN Coverage](https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/)
 
-
+---
 
 # APTOS MOVE SECURITY
 
@@ -238,19 +228,19 @@ TODO: merge into 1 section
 
 ## Aptos CTFs and Challenges
 
-### Aptos-Specific CTF Competitions
-
 | Competition | Organizer | Link |
 |-------------|-----------|------|
 | **CTF MOVEment** | MoveBit, Aptos Foundation | [Website](https://ctfmovement.movebit.xyz/) |
 | **Aptos Code Collision CTF** | Aptos Foundation | [CTFtime](https://ctftime.org/event/2433/) |
 | **Aave V3 Aptos CTF** | Aave | $100K rewards |
 
+**Challenge Repositories:**
 
 | Repository | Description | Link |
 |------------|-------------|------|
 | **ctfmovement challenges** | Official CTF MOVEment repos | [GitHub](https://github.com/movebit) |
 
+**CTF Writeups:**
 
 | Writeup | Competition | Link |
 |---------|-------------|------|
@@ -353,6 +343,7 @@ TODO: merge into 1 section
 
 ---
 
+## Cheatsheets and Quick References
 
 | Resource | Platform | Link |
 |----------|----------|------|
@@ -377,11 +368,30 @@ TODO: merge into 1 section
 
 | Firm | Specialty | Platforms | Website |
 |------|-----------|-----------|---------|
+| **Monethic** | Smart contract security audits and blockchain security services | Sui, Aptos, Solana, EVM | [monethic.com](https://monethic.com) |
 | **MoveBit** | Formal verification pioneer, CTF host, first Move security company | Sui, Aptos | [movebit.xyz](https://www.movebit.xyz) |
 | **OtterSec** | Deep manual reviews, Move Prover expertise, Sui Foundation partner | Sui, Aptos | [osec.io](https://osec.io) |
 | **Zellic** | Critical vulnerability research, Move bytecode expertise | Sui, Aptos | [zellic.io](https://www.zellic.io) |
---> TODO ADD MONETHIC
 
+### Additional Auditors with Move Capabilities
+
+| Firm | Notable Work | Website |
+|------|--------------|---------|
+| **CertiK** | Aptos Core audit, Hamster Wheel discovery | [certik.com](https://www.certik.com) |
+| **Halborn** | Sui security audits, Pontem Wallet | [halborn.com](https://www.halborn.com) |
+| **SlowMist** | PancakeSwap Move audit, audit guides | [slowmist.com](https://www.slowmist.com) |
+| **Blaize.Security** | Full-stack Sui defenses | [security.blaize.tech](https://security.blaize.tech) |
+| **Certora** | Hybrid audit reports with formal verification | [certora.com](https://www.certora.com) |
+| **Hacken** | Move smart contract audits | [hacken.io](https://hacken.io) |
+| **Verichains** | Cetus analysis, Amnis Finance audit | [verichains.io](https://verichains.io) |
+| **QuillAudits** | Security audits and analysis | [quillaudits.com](https://www.quillaudits.com) |
+
+---
+
+## Cross-Platform Bug Bounty Programs
+
+| Program | Platform | Max Reward | Link |
+|---------|----------|------------|------|
 | Wormhole | Both | 20,000,000 W | [Immunefi](https://immunefi.com/bug-bounty/wormhole/) |
 | Movement Labs Attackathon | Movement | $400,000 | [Immunefi](https://immunefi.com/audit-competition/movement-labs-attackathon/information/) |
 
