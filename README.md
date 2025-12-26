@@ -16,7 +16,6 @@
   - [Sui Security Training](#sui-security-training)
   - [Sui Exploits and Incidents](#sui-exploits-and-incidents)
   - [Sui Bug Bounty Programs](#sui-bug-bounty-programs)
-  - [Sui Security Documentation](#sui-security-documentation)
 
 - [APTOS MOVE SECURITY](#aptos-move-security)
   - [Aptos-Specific Security Articles](#aptos-specific-security-articles)
@@ -26,7 +25,6 @@
   - [Aptos Security Training](#aptos-security-training)
   - [Aptos Exploits and Incidents](#aptos-exploits-and-incidents)
   - [Aptos Bug Bounty Programs](#aptos-bug-bounty-programs)
-  - [Aptos Security Documentation](#aptos-security-documentation)
 
 - [GENERAL MOVE SECURITY](#general-move-security)
   - [General Move Security Articles](#general-move-security-articles)
