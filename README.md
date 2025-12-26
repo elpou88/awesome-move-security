@@ -67,28 +67,14 @@
 | Tool | Description | Link |
 |------|-------------|------|
 | **Sui Prover** | Formal verification tool by Asymptotic for mathematically verifying contract properties | [GitHub](https://github.com/asymptotic-code/sui-prover) |
-| **Sui Prover Announcement** | Official blog post about bringing formal verification to Sui | [Blog](https://blog.sui.io/asymptotic-move-prover-formal-verification/) |
 
-### Static Analyzers and Linters
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **sui-move-analyzer** | VSCode extension with diagnostics and MSL support | [GitHub](https://github.com/movebit/sui-move-analyzer) |
-| **sui-move-analyzer (VSCode)** | VSCode Marketplace extension with real-time diagnostics | [Marketplace](https://marketplace.visualstudio.com/items?itemName=MoveBit.sui-move-analyzer) |
-| **MoveBit MoveScanner** | Web-based security scanner for Sui contracts | [Website](https://www.movebit.xyz/MoveScanner) |
 
 ### Fuzzing Tools
 
 | Tool | Description | Link |
 |------|-------------|------|
-| **ItyFuzz (Sui WIP)** | Hybrid bytecode-level fuzzer combining symbolic execution with fuzzing | [GitHub](https://github.com/fuzzland/ityfuzz) |
 | **Sui Fuzzer** | FuzzingLabs fuzzing tool for Sui contracts | [GitHub](https://github.com/FuzzingLabs/sui-fuzzer) |
 
-### Development Tools
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Move Web IDE** | Browser-based IDE for Sui Move development | [Website](https://www.movebit.xyz/MoveWebIDE) |
 
 ---
 
@@ -115,7 +101,7 @@
 
 ## Sui CTFs and Challenges
 
-### Sui-Specific CTF Competitions
+TODO: merge into 1 section
 
 | Competition | Organizer | Link |
 |-------------|-----------|------|
@@ -151,6 +137,7 @@
 | Sui Object Model Workshop | [GitHub](https://github.com/sui-foundation/sui-object-model-workshop) |
 
 ### Third-Party Sui Training
++ dodac nasze?
 
 | Course | Platform | Link |
 |--------|----------|------|
@@ -177,51 +164,7 @@
   - [Crypto News Coverage](https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/)
   - [CCN Coverage](https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/)
 
-#### Shared Vulnerability Impact (Post-Cetus)
-Multiple Sui protocols silently patched the same overflow bug:
-- **Kriya DEX:** $10M TVL at risk
-- **FlowX Finance:** $4.6M TVL at risk
-- **Turbos Finance:** $10.3M TVL with vulnerable code present
 
-### Critical Sui Bug Bounty Disclosures
-
-| Vulnerability | Bounty | Impact | Post-Mortem |
-|---------------|--------|--------|-------------|
-| Sui "Hamster Wheel" Attack | $500,000 | Network shutdown via infinite loop | [CertiK](https://certik.medium.com/unraveling-the-hamsterwheel-how-certik-caught-a-critical-bug-in-sui-aeff568bcb95) |
-| Sui Narwhal Network Shutdown | $50,000 | Temporary network DoS via OOM | [Immunefi](https://immunefi.com/blog/bug-fix-reviews/sui-network-shutdown/) |
-
----
-
-## Sui Bug Bounty Programs
-
-### Sui Layer 1 Programs
-
-| Program | Max Reward | Link |
-|---------|------------|------|
-| Sui Bug Bounty | $1,000,000 | [HackenProof](https://hackenproof.com/programs/sui-protocol) |
-| Sui Foundation x Immunefi | Variable | [Website](https://sui.io/bug-bounty-program) |
-
-### Sui Protocol Programs
-
-| Program | Max Reward | Link |
-|---------|------------|------|
-| DeepBook | $100,000 | [Sui Forums](https://forums.sui.io/t/the-deepbook-bug-bounty-program-is-officially-live/46047) |
-
----
-
-## Sui Security Documentation
-
-| Resource | Link |
-|----------|------|
-| Sui Security Architecture | [Docs](https://docs.sui.io/concepts/sui-architecture/sui-security) |
-| Sui Whitepaper | [PDF](https://docs.sui.io/paper/sui.pdf) |
-| Sui Cryptography Docs | [Docs](https://docs.sui.io/concepts/cryptography) |
-| Sui Research Papers | [Docs](https://docs.sui.io/concepts/research-papers) |
-| MystenLabs Security Policy | [GitHub](https://github.com/MystenLabs/sui/blob/main/SECURITY.md) |
-| Sui Discord | [Discord](https://discord.com/invite/sui) |
-| Sui Developer Forum | [Forum](https://forums.sui.io) |
-
----
 
 # APTOS MOVE SECURITY
 
@@ -303,37 +246,17 @@ Multiple Sui protocols silently patched the same overflow bug:
 | **Aptos Code Collision CTF** | Aptos Foundation | [CTFtime](https://ctftime.org/event/2433/) |
 | **Aave V3 Aptos CTF** | Aave | $100K rewards |
 
-### Aptos CTF Repositories
 
 | Repository | Description | Link |
 |------------|-------------|------|
 | **ctfmovement challenges** | Official CTF MOVEment repos | [GitHub](https://github.com/movebit) |
 
-### Aptos CTF Writeups
 
 | Writeup | Competition | Link |
 |---------|-------------|------|
 | MOVEment CTF 2022 Writeup | CTF MOVEment | [Amber Group](https://ambergroup.medium.com/movement-ctf-2022-writeup-4904ff8a82e) |
 | CTF Movement Aptos 2022 | CTF MOVEment | [leoq7](https://leoq7.com/2022/12/CTF-Movement-Aptos/) |
 | CTFMovement-3 Challenge | CTF MOVEment | [Coinsbench](https://coinsbench.com/draining-tokens-from-a-dex-in-the-movebit-ctfmovement-3-challenge-a-solution-walkthrough-37d8ed737821) |
-
----
-
-## Aptos Security Training
-
-### Official Aptos Resources
-
-| Course | Link |
-|--------|------|
-| Move Security Guidelines | [Docs](https://aptos.dev/build/smart-contracts/move-security-guidelines) |
-| Aptos Move Tutorial | [GitHub](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/move-examples/move-tutorial) |
-
-### Third-Party Aptos Training
-
-| Course | Platform | Link |
-|--------|----------|------|
-| Aptos Move by Example | GitBook | [Guide](https://move-developers-dao.gitbook.io/aptos-move-by-example) |
-| Pontem Aptos Tutorial | Pontem Docs | [Tutorial](https://docs.pontem.network/03.-tutorials/aptos-tutorial) |
 
 ---
 
@@ -409,8 +332,6 @@ Multiple Sui protocols silently patched the same overflow bug:
 | The Billion Dollar Move Bug | Zellic | [Blog](https://www.zellic.io/blog/the-billion-dollar-move-bug) |
 | Move Fast and Break Things: Move Security Part 1 | Zellic | [Blog](https://www.zellic.io/blog/move-fast-and-break-things-pt-1) |
 | Move Fast and Break Things: Move Security Part 2 | Zellic | [Blog](https://www.zellic.io/blog/move-fast-break-things-move-security-part-2) |
-| A Systematic Classification of Vulnerabilities in MoveEVM | Academic | [arXiv](https://arxiv.org/html/2505.19047v1) |
-| Analyzing Four Types of Critical Security Vulnerabilities in Move | Academic | [Springer](https://link.springer.com/article/10.1007/s10586-025-05439-1) |
 
 ### Security Best Practices
 
@@ -432,100 +353,6 @@ Multiple Sui protocols silently patched the same overflow bug:
 
 ---
 
-## Dialect Comparison Resources
-
-| Title | Source | Link |
-|-------|--------|------|
-| Aptos vs. Sui: Detailed Blockchain Guide | Blaize | [Blog](https://blaize.tech/article-type/overview/aptos-vs-sui-blockchain-a-detailed-guide/) |
-| Aptos vs Sui Research Report | The Tie Research | [Report](https://www.thetie.io/insights/research/aptos-vs-sui/) |
-| Move Twins: Sui and Aptos Comparison | YBB Capital | [Medium](https://medium.com/ybbcapital/move-twins-how-sui-and-aptos-are-challenging-the-blockchain-landscape-648c89eeb740) |
-| Aptos vs. Sui vs. Movement Compared | DWF Labs | [Research](https://www.dwf-labs.com/research/460-aptos-vs-sui-vs-movement-move-blockchains-compared) |
-| Sui vs. Aptos: How Are These Blockchains Different? | Bankless | [Article](https://www.bankless.com/sui-vs-aptos) |
-
----
-
-## Cross-Platform Security Tools
-
-### Formal Verification Tools
-
-| Tool | Platforms | Description | Link |
-|------|-----------|-------------|------|
-| **Move Prover** | Aptos, General | Official formal verifier using Boogie and Z3 | [GitHub](https://github.com/aptos-labs/aptos-core) |
-| **Move Bytecode Verifier** | Both | Core VM component enforcing type, resource, and memory safety | [GitHub](https://github.com/move-language/move) |
-
-### Development Tools
-
-| Tool | Platforms | Description | Link |
-|------|-----------|-------------|------|
-| **move-mode** | Both | Emacs major mode with LSP support | [GitHub](https://github.com/amnn/move-mode) |
-| **Move Web IDE** | Both | Browser-based IDE for Move development | [Website](https://www.movebit.xyz/MoveWebIDE) |
-| **move-fuzzer** | Both | Work-in-progress module fuzzer from FuzzLand | [GitHub](https://github.com/fuzzland/move-fuzzer) |
-
-### Security Libraries
-
-| Library | Platforms | Description | Link |
-|---------|-----------|-------------|------|
-| **Movemate** | Both | Security-focused module building blocks for governance, math, data structures | [GitHub](https://github.com/pentagonxyz/movemate) |
-
----
-
-## General Move CTFs
-
-### Multi-Platform CTF Repositories
-
-| Repository | Description | Link |
-|------------|-------------|------|
-| **ctf-blockchain** | 200+ blockchain CTF challenges including Move | [GitHub](https://github.com/minaminao/ctf-blockchain) |
-| **blocksec-ctfs** | Curated CTF competition index | [GitHub](https://github.com/blockthreat/blocksec-ctfs) |
-
-### General Move CTF Competitions
-
-| Competition | Platform | Link |
-|-------------|----------|------|
-| **justCTF 2024** | Move | Various |
-| **Movement Labs Attackathon** | Movement | [Immunefi](https://immunefi.com/audit-competition/movement-labs-attackathon/information/) - $400,000 |
-
----
-
-## Academic Research and Papers
-
-### Formal Verification
-
-| Title | Link |
-|-------|------|
-| Fast and Reliable Formal Verification with Move Prover (TACAS 2022) | [arXiv](https://arxiv.org/abs/2110.08362) |
-| The Move Prover - Stanford Computer Science | [PDF](https://www-cs.stanford.edu/~yoniz/cav20.pdf) |
-| Fast and Reliable Formal Verification of Smart Contracts with the Move Prover | [Springer](https://link.springer.com/chapter/10.1007/978-3-030-99524-9_10) |
-| Formal Verification, Move Language, and Move Prover | [CertiK](https://www.certik.com/resources/blog/2wSOZ3mC55AB6CYol6Q2rP-formal-verification-the-move-language-and-the-move-prover) |
-| The ABC of Formal Verification with Move | [Medium](https://medium.com/@seyyedaliayati/the-abc-of-formal-verification-with-move-906ac1b2aaa0) |
-
-### Security Analysis
-
-| Title | Link |
-|-------|------|
-| A Systematic Classification of Vulnerabilities in MoveEVM | [arXiv](https://arxiv.org/html/2505.19047v1) |
-| Analyzing Four Types of Critical Security Vulnerabilities in Move | [Springer](https://link.springer.com/article/10.1007/s10586-025-05439-1) |
-
----
-
-## Common Vulnerability Patterns
-
-The following patterns are common across both Sui Move and Aptos Move:
-
-1. **Object Ownership Verification** - Failing to verify signer owns `Object<T>`
-2. **Abilities Mismanagement** - Improper use of `key`, `store`, `copy`, `drop`
-3. **Resource Misuse** - Improper handling of non-drop resources
-4. **Randomness Abuse** - Unsafe public functions calling randomness APIs
-5. **Global Storage Access** - Improper access to shared objects
-6. **Type Safety Issues** - Move type confusion bugs
-7. **Integer Overflow in Bit Shifts** - Intentionally allowed unlike other operations
-8. **Flash Loan Logic Errors** - Vulnerabilities in DeFi protocol implementations
-9. **Phantom Type Parameter Misuse** - Improper generic type handling
-10. **Shared Library Vulnerabilities** - Copy-pasted code creating systemic risk (e.g., Cetus integer-mate bug)
-
----
-
-## Cheatsheets and Quick References
 
 | Resource | Platform | Link |
 |----------|----------|------|
@@ -553,44 +380,8 @@ The following patterns are common across both Sui Move and Aptos Move:
 | **MoveBit** | Formal verification pioneer, CTF host, first Move security company | Sui, Aptos | [movebit.xyz](https://www.movebit.xyz) |
 | **OtterSec** | Deep manual reviews, Move Prover expertise, Sui Foundation partner | Sui, Aptos | [osec.io](https://osec.io) |
 | **Zellic** | Critical vulnerability research, Move bytecode expertise | Sui, Aptos | [zellic.io](https://www.zellic.io) |
+--> TODO ADD MONETHIC
 
-### Additional Auditors with Move Capabilities
-
-| Firm | Notable Work | Website |
-|------|--------------|---------|
-| **CertiK** | Aptos Core audit, Hamster Wheel discovery | [certik.com](https://www.certik.com) |
-| **Halborn** | Sui security audits, Pontem Wallet | [halborn.com](https://www.halborn.com) |
-| **SlowMist** | PancakeSwap Move audit, audit guides | [slowmist.com](https://www.slowmist.com) |
-| **Blaize.Security** | Full-stack Sui defenses | [security.blaize.tech](https://security.blaize.tech) |
-| **Certora** | Hybrid audit reports with formal verification | [certora.com](https://www.certora.com) |
-| **Hacken** | Move smart contract audits | [hacken.io](https://hacken.io) |
-| **Verichains** | Cetus analysis, Amnis Finance audit | [verichains.io](https://verichains.io) |
-| **QuillAudits** | Security audits and analysis | [quillaudits.com](https://www.quillaudits.com) |
-
----
-
-## Key Statistics
-
-### Sui Move Statistics
-- **Largest Single Exploit:** Cetus ($223M lost, $162M recovered)
-- **Bug Bounties Paid:** $550,000+ (Hamster Wheel + Network Shutdown)
-- **Protocols Affected by Shared Vulnerability:** 4+ (Cetus, Kriya, FlowX, Turbos)
-
-### Aptos Move Statistics
-- **Largest Single Exploit:** Thala Labs ($25.5M - 100% recovered)
-- **Full Recovery Rate:** 100% (Thala)
-
-### Combined Statistics
-- **Total Confirmed Losses:** ~$248.5M+
-- **Total Recovered:** ~$187.5M (75.5%)
-- **Total Bug Bounties Paid:** $850,000+
-
----
-
-## Bug Bounty Programs (Cross-Platform)
-
-| Program | Platform | Max Reward | Link |
-|---------|----------|------------|------|
 | Wormhole | Both | 20,000,000 W | [Immunefi](https://immunefi.com/bug-bounty/wormhole/) |
 | Movement Labs Attackathon | Movement | $400,000 | [Immunefi](https://immunefi.com/audit-competition/movement-labs-attackathon/information/) |
 
