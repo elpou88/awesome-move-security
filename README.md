@@ -9,33 +9,27 @@
 ## Table of Contents
 
 - [SUI MOVE SECURITY](#sui-move-security)
-  - [Sui-Specific Security Articles](#sui-specific-security-articles)
-  - [Sui Security Tools](#sui-security-tools)
+  - [Sui Security Articles](#sui-specific-security-articles)
   - [Sui Public Audit Reports](#sui-public-audit-reports)
-  - [Sui CTFs and Challenges](#sui-ctfs-and-challenges)
-  - [Sui Security Training](#sui-security-training)
   - [Sui Exploits and Incidents](#sui-exploits-and-incidents)
+  - [Sui CTFs and Challenges](#sui-ctfs-and-challenges)
 
 - [APTOS MOVE SECURITY](#aptos-move-security)
-  - [Aptos-Specific Security Articles](#aptos-specific-security-articles)
-  - [Aptos Security Tools](#aptos-security-tools)
+  - [Aptos Security Articles](#aptos-specific-security-articles)
   - [Aptos Public Audit Reports](#aptos-public-audit-reports)
-  - [Aptos CTFs and Challenges](#aptos-ctfs-and-challenges)
   - [Aptos Exploits and Incidents](#aptos-exploits-and-incidents)
-  - [Aptos Bug Bounty Programs](#aptos-bug-bounty-programs)
-  - [Aptos Security Documentation](#aptos-security-documentation)
+  - [Aptos CTFs and Challenges](#aptos-ctfs-and-challenges)
 
 - [GENERAL MOVE SECURITY](#general-move-security)
   - [General Move Security Articles](#general-move-security-articles)
   - [Cheatsheets and Quick References](#cheatsheets-and-quick-references)
   - [Security Audit Firms](#security-audit-firms)
-  - [Cross-Platform Bug Bounty Programs](#cross-platform-bug-bounty-programs)
 
 ---
 
 # SUI MOVE SECURITY
 
-## Sui-Specific Security Articles
+## Sui Security Articles
 
 ### Audit Technique Guides
 
@@ -118,25 +112,6 @@
 
 ---
 
-## Sui Security Training
-
-### Official Sui Resources
-
-| Course | Link |
-|--------|------|
-| Sui Move Intro Course | [GitHub](https://github.com/sui-foundation/sui-move-intro-course) |
-| Sui Object Model Workshop | [GitHub](https://github.com/sui-foundation/sui-object-model-workshop) |
-
-### Third-Party Sui Training
-
-| Course | Platform | Link |
-|--------|----------|------|
-| Move on Sui Bootcamp | Rise In | [Bootcamp](https://www.risein.com/bootcamps/move-on-sui-bootcamp) |
-| Build on Sui Track | Metaschool | [Course](https://metaschool.so/sui) |
-| Secure Your Sui Smart Contracts | QuillAudits | [Blog](https://www.quillaudits.com/blog/web3-security/secure-your-sui-smart-contracts) |
-
----
-
 ## Sui Exploits and Incidents
 
 ### Major Sui Exploits
@@ -158,7 +133,7 @@
 
 # APTOS MOVE SECURITY
 
-## Aptos-Specific Security Articles
+## Aptos Security Articles
 
 ### Audit Technique Guides
 
@@ -173,33 +148,6 @@
 | Top 10 Aptos Move Bugs | Zellic | [Blog](https://www.zellic.io/blog/top-10-aptos-move-bugs) |
 | Moving the Immovables: Lessons From Our Aptos Audit | CertiK | [Blog](https://www.certik.com/resources/blog/moving-the-immovables-lessons-learned-from-our-aptos-smart-contract-audit) |
 
----
-
-## Aptos Security Tools
-
-### Formal Verification
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Move Prover** | Official formal verifier using Boogie and Z3 SMT solver for proving functional correctness | [GitHub](https://github.com/aptos-labs/aptos-core) |
-| **Move Prover Resources** | CertiK guide on Move Prover quality assurance | [Blog](https://www.certik.com/resources/blog/1NygvVeqIwhbUk1U1q3vJF-the-move-prover-quality-assurance-of-formal-verification) |
-
-### Static Analyzers and Linters
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Aptos Move Lint** | Built-in linter with security checks for unsafe operations, signer leaks, infinite recursion | [Docs](https://aptos.dev/build/smart-contracts/linter) |
-| **aptos-move-analyzer** | Language server with security-focused linting | [GitHub](https://github.com/movebit/aptos-move-analyzer) |
-| **aptos-move-analyzer (VSCode)** | VSCode extension supporting Move V1 and V2 | [Marketplace](https://marketplace.visualstudio.com/items?itemName=MoveBit.aptos-move-analyzer) |
-| **MoveBit MoveScanner** | Web-based security scanner for Aptos contracts | [Website](https://www.movebit.xyz/MoveScanner) |
-
-### Fuzzing Tools
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Move-Smith** | Source-code level fuzzer for Move compilers and VM | [GitHub](https://github.com/aptos-labs/move-smith) |
-
----
 
 ## Aptos Public Audit Reports
 
@@ -234,13 +182,10 @@
 | **Aptos Code Collision CTF** | Aptos Foundation | [CTFtime](https://ctftime.org/event/2433/) |
 | **Aave V3 Aptos CTF** | Aave | $100K rewards |
 
-**Challenge Repositories:**
-
 | Repository | Description | Link |
 |------------|-------------|------|
 | **ctfmovement challenges** | Official CTF MOVEment repos | [GitHub](https://github.com/movebit) |
 
-**CTF Writeups:**
 
 | Writeup | Competition | Link |
 |---------|-------------|------|
@@ -270,37 +215,7 @@
 | Wormhole Bridge Aptos | Undisclosed | $5M at risk via unauthorized calls | [Cointelegraph](https://cointelegraph.com/news/certik-discovered-5-million-security-flaw-wormhole-bridge-aptos) |
 | Aptos MoveVM Integer Overflow | Undisclosed | Full network DoS potential | [CyberExpress](https://thecyberexpress.com/critical-vulnerability-in-aptos-movevm-patched/) |
 
----
 
-## Aptos Bug Bounty Programs
-
-### Aptos Layer 1 Programs
-
-| Program | Max Reward | Link |
-|---------|------------|------|
-| Aptos Labs Bug Bounty | Variable | [GitHub](https://github.com/aptos-labs/aptos-core/security) |
-| Aptos Petra Wallet | $100,000 | [Immunefi](https://immunefi.com/bug-bounty/aptos-petra-wallet/) |
-
-### Aptos Protocol Programs
-
-| Program | Max Reward | Link |
-|---------|------------|------|
-| Econia | $100,000 | [Immunefi](https://immunefi.com/bug-bounty/econia/information/) |
-| Liquidswap | $500,000 | [Immunefi](https://immunefi.com/bug-bounty/liquidswap/information/) |
-
----
-
-## Aptos Security Documentation
-
-| Resource | Link |
-|----------|------|
-| Move Security Guidelines | [Docs](https://aptos.dev/build/smart-contracts/move-security-guidelines) |
-| Aptos Cryptography Docs | [Docs](https://aptos.dev/build/smart-contracts/cryptography) |
-| Aptos Rust Secure Coding | [GitHub](https://github.com/aptos-labs/aptos-core/blob/main/RUST_SECURE_CODING.md) |
-| Securing the Aptos Framework | [Medium](https://medium.com/aptoslabs/securing-the-aptos-framework-through-formal-verification-14124d1ed660) |
-| Securing Move (Aptos Labs & OtterSec) | [Medium](https://medium.com/aptoslabs/securing-move-f81099f5e08c) |
-| Aptos Discord | [Discord](https://discord.com/invite/aptosnetwork) |
-| Aptos Telegram | [Telegram](https://t.me/aptos) |
 
 ---
 
@@ -364,7 +279,7 @@
 
 ## Security Audit Firms
 
-### Primary Move Ecosystem Auditors
+### Well known Move Ecosystem Auditors
 
 | Firm | Specialty | Platforms | Website |
 |------|-----------|-----------|---------|
@@ -373,27 +288,6 @@
 | **OtterSec** | Deep manual reviews, Move Prover expertise, Sui Foundation partner | Sui, Aptos | [osec.io](https://osec.io) |
 | **Zellic** | Critical vulnerability research, Move bytecode expertise | Sui, Aptos | [zellic.io](https://www.zellic.io) |
 
-### Additional Auditors with Move Capabilities
-
-| Firm | Notable Work | Website |
-|------|--------------|---------|
-| **CertiK** | Aptos Core audit, Hamster Wheel discovery | [certik.com](https://www.certik.com) |
-| **Halborn** | Sui security audits, Pontem Wallet | [halborn.com](https://www.halborn.com) |
-| **SlowMist** | PancakeSwap Move audit, audit guides | [slowmist.com](https://www.slowmist.com) |
-| **Blaize.Security** | Full-stack Sui defenses | [security.blaize.tech](https://security.blaize.tech) |
-| **Certora** | Hybrid audit reports with formal verification | [certora.com](https://www.certora.com) |
-| **Hacken** | Move smart contract audits | [hacken.io](https://hacken.io) |
-| **Verichains** | Cetus analysis, Amnis Finance audit | [verichains.io](https://verichains.io) |
-| **QuillAudits** | Security audits and analysis | [quillaudits.com](https://www.quillaudits.com) |
-
----
-
-## Cross-Platform Bug Bounty Programs
-
-| Program | Platform | Max Reward | Link |
-|---------|----------|------------|------|
-| Wormhole | Both | 20,000,000 W | [Immunefi](https://immunefi.com/bug-bounty/wormhole/) |
-| Movement Labs Attackathon | Movement | $400,000 | [Immunefi](https://immunefi.com/audit-competition/movement-labs-attackathon/information/) |
 
 ---
 
