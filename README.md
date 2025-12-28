@@ -50,22 +50,6 @@
 
 ---
 
-## Sui Security Tools
-
-### Formal Verification
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Sui Prover** | Formal verification tool by Asymptotic for mathematically verifying contract properties | [GitHub](https://github.com/asymptotic-code/sui-prover) |
-
-### Fuzzing Tools
-
-| Tool | Description | Link |
-|------|-------------|------|
-| **Sui Fuzzer** | FuzzingLabs fuzzing tool for Sui contracts | [GitHub](https://github.com/FuzzingLabs/sui-fuzzer) |
-
----
-
 ## Sui Public Audit Reports
 
 | Protocol | Auditor(s) | Report Link |
@@ -87,32 +71,6 @@
 
 ---
 
-## Sui CTFs and Challenges
-
-| Competition | Organizer | Link |
-|-------------|-----------|------|
-| **MoveCTF** | MoveBit, ChainFlag, OtterSec | [Website](https://movectf.movebit.xyz/) |
-| **Sui Vietnam MoveCTF** | MoveBit | [Website](https://suictf.movebit.xyz/) |
-| **MetaTrust Web3 Security CTF** | MetaTrust Labs, Mysten Labs | Various |
-| **Numen Cyber CTF 2023** | Numen Cyber | [GitHub](https://github.com/numencyber/NumenCTF_2023) |
-
-**Challenge Repositories:**
-
-| Repository | Description | Link |
-|------------|-------------|------|
-| **MoveCTF-1st-Challenge** | First MoveCTF challenges | [GitHub](https://github.com/movectf/MoveCTF-1st-Challenge) |
-
-**CTF Writeups:**
-
-| Writeup | Competition | Link |
-|---------|-------------|------|
-| MoveCTF 2024 Writeup | MoveCTF | [Amber Group](https://ambergroup.medium.com/movectf-2024-writeup-f74784e020c4) |
-| MetaTrust CTF Sui 2023 | MetaTrust | [leoq7](https://leoq7.com/2023/09/MetaTrust-CTF-Sui/) |
-| Move CTF 2024 Writeup | MoveCTF | [ZAN](https://medium.com/@zan.top/move-ctf-2024-writeup-a9baa0c043e7) |
-| Move CTF Writeup | MoveCTF 2022 | [GitHub](https://github.com/saruman9/move_ctf_writeup) |
-
----
-
 ## Sui Exploits and Incidents
 
 ### Major Sui Exploits
@@ -129,6 +87,21 @@
   - [Verichains Analysis](https://blog.verichains.io/p/cetus-protocol-hacked-analysis)
   - [Crypto News Coverage](https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/)
   - [CCN Coverage](https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/)
+
+---
+
+## Sui CTFs and Challenges
+
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Official MoveCTF competition focused on Move smart contract security        | https://movectf.movebit.xyz/ |
+| Sui-focused MoveCTF organized by MoveBit Vietnam community                  | https://suictf.movebit.xyz/ |
+| 2023 blockchain security CTF by Numen Cyber with Move-related challenges    | https://github.com/numencyber/NumenCTF_2023 |
+| Repository containing the first official MoveCTF challenge set              | https://github.com/movectf/MoveCTF-1st-Challenge |
+| Detailed writeup and solutions for MoveCTF 2024 challenges                  | https://ambergroup.medium.com/movectf-2024-writeup-f74784e020c4 |
+| Writeup covering MetaTrust Sui CTF 2023 challenge solutions                 | https://leoq7.com/2023/09/MetaTrust-CTF-Sui/ |
+| Independent MoveCTF 2024 writeup with technical breakdowns                  | https://medium.com/@zan.top/move-ctf-2024-writeup-a9baa0c043e7 |
+| Community writeups and solutions for the 2022 Move CTF                      | https://github.com/saruman9/move_ctf_writeup |
 
 ---
 
