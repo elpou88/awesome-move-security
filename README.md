@@ -31,21 +31,15 @@
 
 ## Sui Security Articles
 
-### Audit Technique Guides
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| SlowMist guide introducing how to audit Sui Move smart contracts            | https://slowmist.medium.com/slowmist-introduction-to-auditing-sui-move-contracts-da005149f6bc |
+| MoveBit article explaining Sui object security principles and best practices| https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html |
+| Official Sui blog post on improving ecosystem security through audits        | https://blog.sui.io/security-audits-and-move-registry/ |
+| SlowMist analysis of a Move language permission-validation vulnerability    | https://slowmist.medium.com/is-the-move-language-secure-the-typus-permission-validation-vulnerability-755a5175f7c3 |
+| MoveBit explanation of vulnerabilities discovered in Bluefin                | https://www.movebit.xyz/blog/post/Bluefin-vulnerabilities-explanation-1.html |
+| MoveBit writeup on discovering and fixing a Sui cross-chain vulnerability   | https://www.movebit.xyz/blog/post/MoveBit-Discovers-and-Helps-Fix-Vulnerability-in-Sui-Cross-Chain-Protocol-20241012.html |
 
-| Title | Source | Link |
-|-------|--------|------|
-| Introduction to Auditing Sui Move Contracts | SlowMist | [Medium](https://slowmist.medium.com/slowmist-introduction-to-auditing-sui-move-contracts-da005149f6bc) |
-| Sui Objects Security Principles and Best Practices | MoveBit | [Blog](https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html) |
-| Greater Ecosystem Security Through Audits | Sui Official | [Blog](https://blog.sui.io/security-audits-and-move-registry/) |
-
-### Vulnerability Analysis
-
-| Title | Source | Link |
-|-------|--------|------|
-| Is the Move Language Secure? Typus Permission-Validation Vulnerability | SlowMist | [Medium](https://slowmist.medium.com/is-the-move-language-secure-the-typus-permission-validation-vulnerability-755a5175f7c3) |
-| Bluefin Vulnerabilities Explanation | MoveBit | [Blog](https://www.movebit.xyz/blog/post/Bluefin-vulnerabilities-explanation-1.html) |
-| MoveBit Discovers Vulnerability in Sui Cross-Chain Protocol | MoveBit | [Blog](https://www.movebit.xyz/blog/post/MoveBit-Discovers-and-Helps-Fix-Vulnerability-in-Sui-Cross-Chain-Protocol-20241012.html) |
 
 
 ---
@@ -105,91 +99,67 @@
 
 ## Aptos Security Articles
 
-### Audit Technique Guides
-
-| Title | Source | Link |
-|-------|--------|------|
-| Move Security Guidelines | Aptos Official | [Docs](https://aptos.dev/build/smart-contracts/move-security-guidelines) |
-
-https://medium.com/@monethic/move-demistyfied-part-3-vulnerabilities-in-storage-and-access-control-checks-8634cc1d114d
-https://medium.com/@monethic/move-demystified-part-2-structs-storage-and-cap-abilities-a60bf6b0b399
-https://medium.com/@monethic/aptos-move-demystified-part-1-helloworld-module-873090be5fa4
-https://medium.com/@monethic/aptos-move-demystified-part-1-helloworld-module-873090be5fa4
-
-### Vulnerability Analysis
-
-| Title | Source | Link |
-|-------|--------|------|
-| Top 10 Aptos Move Bugs | Zellic | [Blog](https://www.zellic.io/blog/top-10-aptos-move-bugs) |
-| Moving the Immovables: Lessons From Our Aptos Audit | CertiK | [Blog](https://www.certik.com/resources/blog/moving-the-immovables-lessons-learned-from-our-aptos-smart-contract-audit) |
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Official Aptos documentation outlining Move smart contract security rules   | https://aptos.dev/build/smart-contracts/move-security-guidelines |
+| Monethic deep dive into Move vulnerabilities in storage and access control  | https://medium.com/@monethic/move-demistyfied-part-3-vulnerabilities-in-storage-and-access-control-checks-8634cc1d114d |
+| Monethic explanation of structs, storage, and capabilities in Move          | https://medium.com/@monethic/move-demystified-part-2-structs-storage-and-cap-abilities-a60bf6b0b399 |
+| Monethic introduction to Aptos Move with a HelloWorld module walkthrough   | https://medium.com/@monethic/aptos-move-demystified-part-1-helloworld-module-873090be5fa4 |
+| Zellic overview of the most common Aptos Move vulnerabilities               | https://www.zellic.io/blog/top-10-aptos-move-bugs |
+| CertiK audit lessons learned from securing an Aptos protocol                | https://www.certik.com/resources/blog/moving-the-immovables-lessons-learned-from-our-aptos-smart-contract-audit |
+| Monethic explains Move Prover usage               | https://medium.com/@monethic/getting-started-with-move-prover-for-aptos-01923d5a1d0f |
 
 
 ## Aptos Public Audit Reports
 
-| Protocol | Auditor(s) | Report Link |
-|----------|-----------|-------------|
-| **Cetus Protocol (Aptos)** | MoveBit | [PDF](https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Aptos%20Audit%20Report%20by%20MoveBit.pdf) |
-| **Cetus Protocol (Aptos)** | OtterSec | [PDF](https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Aptos%20Audit%20Report%20by%20OtterSec.pdf) |
-| **Liquidswap (Pontem)** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Pontem%20Liquidswap%20-%20Zellic%20Audit%20Report.pdf) |
-| **Liquidswap Formal Verification** | MoveBit | [Blog](https://pontem.network/posts/liquidswap-passes-formal-verification-by-movebit---heres-what-it-means) |
-| **Thala Labs MOD** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Thala%20Labs%20Move%20Dollar%20-%20Zellic%20Audit%20Report.pdf) |
-| **Econia** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Econia%20-%20Zellic%20Audit%20Report.pdf) |
-| **Echelon** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Echelon%20-%20Zellic%20Audit%20Report%20(January).pdf) |
-| **Tortuga Liquid Staking** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Tortuga%20Liquid%20Staking%20-%20Zellic%20Audit%20Report.pdf) |
-| **Laminar Markets** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Laminar%20-%20Zellic%20Audit%20Report.pdf) |
-| **MSafe** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/MSafe%20-%20Zellic%20Audit%20Report.pdf) |
-| **PancakeSwap Aptos** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/PancakeSwap%20Aptos%20-%20Zellic%20Audit%20Report.pdf) |
-| **PancakeSwap Move** | SlowMist | [PDF](https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20PancakeSwap_MOVE_en-us.pdf) |
-| **Wormhole Aptos** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Wormhole%20Aptos%20-%20Zellic%20Audit%20Report.pdf) |
-| **LayerZero OFT** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/LayerZero%20OFT%20Wrapper%20Audit%20(January%2019th%202023)%20-%20Zellic%20Audit%20Report.pdf) |
-| **Cellana** | MoveBit | [PDF](https://movebit.xyz/reports/Cellana-Smart-Contract-Final-Audit-Report.pdf) |
-| **Streamflow (Aptos)** | MoveBit | [PDF](https://movebit.xyz/reports/Streamflow-Aptos-Final-Audit-Report.pdf) |
-| **Kanalabs Aggregator** | MoveBit | [PDF](https://movebit.xyz/reports/Kanalabs-aggregator-Smart-Contract-Final-Audit-Report.pdf) |
-| **Amnis Finance** | MoveBit, Verichains | [Docs](https://docs.amnis.finance/security-audits) |
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Cetus Protocol on Aptos audited by MoveBit                                  | https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Aptos%20Audit%20Report%20by%20MoveBit.pdf |
+| Cetus Protocol on Aptos audited by OtterSec                                 | https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Aptos%20Audit%20Report%20by%20OtterSec.pdf |
+| Pontem Liquidswap audited by Zellic                                         | https://github.com/Zellic/publications/blob/master/Pontem%20Liquidswap%20-%20Zellic%20Audit%20Report.pdf |
+| Liquidswap formal verification conducted by MoveBit                         | https://pontem.network/posts/liquidswap-passes-formal-verification-by-movebit---heres-what-it-means |
+| Thala Labs Move Dollar audited by Zellic                                    | https://github.com/Zellic/publications/blob/master/Thala%20Labs%20Move%20Dollar%20-%20Zellic%20Audit%20Report.pdf |
+| Econia protocol audited by Zellic                                           | https://github.com/Zellic/publications/blob/master/Econia%20-%20Zellic%20Audit%20Report.pdf |
+| Echelon protocol audited by Zellic                                          | https://github.com/Zellic/publications/blob/master/Echelon%20-%20Zellic%20Audit%20Report%20(January).pdf |
+| Tortuga liquid staking audited by Zellic                                    | https://github.com/Zellic/publications/blob/master/Tortuga%20Liquid%20Staking%20-%20Zellic%20Audit%20Report.pdf |
+| Laminar Markets audited by Zellic                                           | https://github.com/Zellic/publications/blob/master/Laminar%20-%20Zellic%20Audit%20Report.pdf |
+| MSafe wallet audited by Zellic                                              | https://github.com/Zellic/publications/blob/master/MSafe%20-%20Zellic%20Audit%20Report.pdf |
+| PancakeSwap on Aptos audited by Zellic                                      | https://github.com/Zellic/publications/blob/master/PancakeSwap%20Aptos%20-%20Zellic%20Audit%20Report.pdf |
+| PancakeSwap Move implementation audited by SlowMist                         | https://github.com/slowmist/Knowledge-Base/blob/master/open-report-V2/smart-contract/SlowMist%20Audit%20Report%20-%20PancakeSwap_MOVE_en-us.pdf |
+| Wormhole bridge on Aptos audited by Zellic                                  | https://github.com/Zellic/publications/blob/master/Wormhole%20Aptos%20-%20Zellic%20Audit%20Report.pdf |
+| LayerZero OFT wrapper audited by Zellic                                     | https://github.com/Zellic/publications/blob/master/LayerZero%20OFT%20Wrapper%20Audit%20(January%2019th%202023)%20-%20Zellic%20Audit%20Report.pdf |
+| Cellana protocol audited by MoveBit                                         | https://movebit.xyz/reports/Cellana-Smart-Contract-Final-Audit-Report.pdf |
+| Streamflow on Aptos audited by MoveBit                                      | https://movebit.xyz/reports/Streamflow-Aptos-Final-Audit-Report.pdf |
+| Kanalabs aggregator audited by MoveBit                                      | https://movebit.xyz/reports/Kanalabs-aggregator-Smart-Contract-Final-Audit-Report.pdf |
+| Amnis Finance audited by MoveBit and Verichains                             | https://docs.amnis.finance/security-audits |
+
 
 ---
 
 ## Aptos CTFs and Challenges
 
-| Competition | Organizer | Link |
-|-------------|-----------|------|
-| **CTF MOVEment** | MoveBit, Aptos Foundation | [Website](https://ctfmovement.movebit.xyz/) |
-| **Aptos Code Collision CTF** | Aptos Foundation | [CTFtime](https://ctftime.org/event/2433/) |
-| **Aave V3 Aptos CTF** | Aave | $100K rewards |
-
-| Repository | Description | Link |
-|------------|-------------|------|
-| **ctfmovement challenges** | Official CTF MOVEment repos | [GitHub](https://github.com/movebit) |
-
-
-| Writeup | Competition | Link |
-|---------|-------------|------|
-| MOVEment CTF 2022 Writeup | CTF MOVEment | [Amber Group](https://ambergroup.medium.com/movement-ctf-2022-writeup-4904ff8a82e) |
-| CTF Movement Aptos 2022 | CTF MOVEment | [leoq7](https://leoq7.com/2022/12/CTF-Movement-Aptos/) |
-| CTFMovement-3 Challenge | CTF MOVEment | [Coinsbench](https://coinsbench.com/draining-tokens-from-a-dex-in-the-movebit-ctfmovement-3-challenge-a-solution-walkthrough-37d8ed737821) |
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Official CTF MOVEment competition by MoveBit and Aptos Foundation           | https://ctfmovement.movebit.xyz/ |
+| Aptos Code Collision CTF hosted by the Aptos Foundation                     | https://ctftime.org/event/2433/ |
+| Aave V3 CTF focused on Aptos with significant rewards                       | $100K rewards |
+| Official CTF MOVEment challenge repositories                                | https://github.com/movebit |
+| Amber Group writeup for CTF MOVEment 2022                                   | https://ambergroup.medium.com/movement-ctf-2022-writeup-4904ff8a82e |
+| Community writeup for CTF MOVEment Aptos 2022                               | https://leoq7.com/2022/12/CTF-Movement-Aptos/ |
+| Coinsbench walkthrough of a CTF MOVEment challenge                          | https://coinsbench.com/draining-tokens-from-a-dex-in-the-movebit-ctfmovement-3-challenge-a-solution-walkthrough-37d8ed737821 |
+|
 
 ---
 
 ## Aptos Exploits and Incidents
 
-### Major Aptos Exploits
-
-#### Thala Labs Hack - November 2024
-- **Amount Lost:** $25.5 million
-- **Amount Recovered:** 100% (after $300K bounty negotiation)
-- **Root Cause:** Missing validation in v1 farming contract `unstake_max` function
-- **Post-Mortems:**
-  - [Thala Official Post-Mortem](https://thalalabs.medium.com/thala-nov-15-post-mortem-5aea82bb3916)
-  - [Halborn Analysis](https://www.halborn.com/blog/post/explained-the-thala-hack-november-2024)
-  - [QuillAudits Analysis](https://www.quillaudits.com/blog/hack-analysis/thala-defi-hack-analysis)
-
-### Critical Aptos Bug Bounty Disclosures
-
-| Vulnerability | Bounty | Impact | Post-Mortem |
-|---------------|--------|--------|-------------|
-| Wormhole Bridge Aptos | Undisclosed | $5M at risk via unauthorized calls | [Cointelegraph](https://cointelegraph.com/news/certik-discovered-5-million-security-flaw-wormhole-bridge-aptos) |
-| Aptos MoveVM Integer Overflow | Undisclosed | Full network DoS potential | [CyberExpress](https://thecyberexpress.com/critical-vulnerability-in-aptos-movevm-patched/) |
-
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Thala Labs official post-mortem explaining the November 2024 exploit        | https://thalalabs.medium.com/thala-nov-15-post-mortem-5aea82bb3916 |
+| Halborn technical analysis of the Thala Labs hack                           | https://www.halborn.com/blog/post/explained-the-thala-hack-november-2024 |
+| QuillAudits breakdown of the Thala DeFi exploit                              | https://www.quillaudits.com/blog/hack-analysis/thala-defi-hack-analysis |
+| Cointelegraph report on Wormhole Aptos vulnerability disclosure             | https://cointelegraph.com/news/certik-discovered-5-million-security-flaw-wormhole-bridge-aptos |
+| CyberExpress coverage of a critical Aptos MoveVM integer overflow bug       | https://thecyberexpress.com/critical-vulnerability-in-aptos-movevm-patched/ |
 
 
 ---
