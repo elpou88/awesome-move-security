@@ -35,7 +35,6 @@
 |-----------------------------------------------------------------------------|------|
 | Guide introducing how to audit Sui Move smart contracts by SlowMist         | [Link](https://slowmist.medium.com/slowmist-introduction-to-auditing-sui-move-contracts-da005149f6bc) |
 | Explanation of Sui object security principles and best practices by MoveBit | [Link](https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html) |
-| Official Sui blog post on improving ecosystem security through audits        | [Link](https://blog.sui.io/security-audits-and-move-registry/) |
 | Analysis of a Move permission-validation vulnerability by SlowMist          | [Link](https://slowmist.medium.com/is-the-move-language-secure-the-typus-permission-validation-vulnerability-755a5175f7c3) |
 | MoveBit explanation of vulnerabilities discovered in Bluefin                | [Link](https://www.movebit.xyz/blog/post/Bluefin-vulnerabilities-explanation-1.html) |
 | MoveBit writeup on fixing a Sui cross-chain protocol vulnerability           | [Link](https://www.movebit.xyz/blog/post/MoveBit-Discovers-and-Helps-Fix-Vulnerability-in-Sui-Cross-Chain-Protocol-20241012.html) |
