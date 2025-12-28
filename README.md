@@ -85,8 +85,6 @@
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
-| Official MoveCTF competition focused on Move smart contract security        | [Link](https://movectf.movebit.xyz/) |
-| Sui-focused MoveCTF organized by the MoveBit Vietnam community              | [Link](https://suictf.movebit.xyz/) |
 | Numen Cyber 2023 blockchain security CTF with Move challenges               | [Link](https://github.com/numencyber/NumenCTF_2023) |
 | Repository containing the first official MoveCTF challenge set              | [Link](https://github.com/movectf/MoveCTF-1st-Challenge) |
 | Amber Group writeup for MoveCTF 2024                                        | [Link](https://ambergroup.medium.com/movectf-2024-writeup-f74784e020c4) |
@@ -144,10 +142,6 @@
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
-| Official CTF MOVEment competition by MoveBit and Aptos Foundation           | [Link](https://ctfmovement.movebit.xyz/) |
-| Aptos Code Collision CTF hosted by the Aptos Foundation                     | [Link](https://ctftime.org/event/2433/) |
-| Aave V3 CTF focused on Aptos with large rewards                             | $100K rewards |
-| Official CTF MOVEment challenge repositories                                | [Link](https://github.com/movebit) |
 | Amber Group writeup for CTF MOVEment 2022                                   | [Link](https://ambergroup.medium.com/movement-ctf-2022-writeup-4904ff8a82e) |
 | Community writeup for CTF MOVEment Aptos 2022                               | [Link](https://leoq7.com/2022/12/CTF-Movement-Aptos/) |
 | Coinsbench walkthrough of a CTF MOVEment challenge                          | [Link](https://coinsbench.com/draining-tokens-from-a-dex-in-the-movebit-ctfmovement-3-challenge-a-solution-walkthrough-37d8ed737821) |
@@ -166,7 +160,6 @@
 | CyberExpress coverage of a critical Aptos MoveVM integer overflow bug       | [Link](https://thecyberexpress.com/critical-vulnerability-in-aptos-movevm-patched/) |
 
 
-
 ---
 
 ## GENERAL MOVE SECURITY
@@ -180,7 +173,7 @@
 | Zellic analysis of a critical Move vulnerability with large economic impact | [Link](https://www.zellic.io/blog/the-billion-dollar-move-bug) |
 | Zellic series on Move security design flaws (Part 1)                        | [Link](https://www.zellic.io/blog/move-fast-and-break-things-pt-1) |
 | Zellic series on Move security design flaws (Part 2)                        | [Link](https://www.zellic.io/blog/move-fast-break-things-move-security-part-2) |
-| Numen Cyber security analysis of the Move language                           | [Link](https://www.numencyber.com/security-analysis-of-the-move-language-game-changer-of-smart-contracts/) |
+| Numen Cyber security analysis of the Move language                          | [Link](https://www.numencyber.com/security-analysis-of-the-move-language-game-changer-of-smart-contracts/) |
 | Panel discussion on what makes Move safe by Pontem Network                  | [Link](https://pontem.network/posts/what-makes-move-safe) |
 | Zokyo perspective on Move as a secure smart contract language               | [Link](https://medium.com/zokyo-io/why-move-is-the-future-of-secure-smart-contract-development-7a219e37e00b) |
 | Developer-focused guide to securing smart contracts by Movement Labs        | [Link](https://blog.movementlabs.xyz/article/securing-smart-contracts-a-devs-guide-part-i) |
