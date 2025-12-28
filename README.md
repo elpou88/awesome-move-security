@@ -35,7 +35,7 @@
 |-----------------------------------------------------------------------------|------|
 | Guide introducing how to audit Sui Move smart contracts by SlowMist         | [Link](https://slowmist.medium.com/slowmist-introduction-to-auditing-sui-move-contracts-da005149f6bc) |
 | Explanation of Sui object security principles and best practices by MoveBit | [Link](https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html) |
-<> | Explanation of Sui Security Workshop by Monethic | [Link](https://medium.com/@monethic/sui-move-security-workshop-writeup-material-480c5e7d1da3) |
+# | Explanation of Sui Security Workshop by Monethic | [Link](https://medium.com/@monethic/sui-move-security-workshop-writeup-material-480c5e7d1da3) |
 
 
 
