@@ -2,7 +2,7 @@
 
 > A curated list of Move language security resources organized by dialect: Sui Move and Aptos Move smart contract auditing, vulnerability research, and security best practices.
 
-**Move** is a smart contract language originally developed by Meta (formerly Facebook) for the Diem blockchain, now powering Sui and Aptos. Unlike Solidity, Move features a resource-oriented programming model with built-in safety guarantees, yet security vulnerabilities remain possible—making specialized security knowledge essential.
+**Move** is a smart contract language originally developed by Meta (formerly Facebook) for the Diem blockchain, now powering Sui and Aptos. Unlike Solidity, Move features a resource-oriented programming model with built-in safety guarantees, yet security vulnerabilities remain possible.
 
 ---
 
