@@ -212,10 +212,10 @@
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
-| Monethic — smart contract security audits and web2/web3 security services | [Link](https://monethic.com) |
-| MoveBit —  Move oriented ecurity company        | [Link](https://www.movebit.xyz) |
-| OtterSec — deep manual reviews and Move Prover expertise                    | [Link](https://osec.io) |
-| Zellic — multichain smart contract auditing      | [Link](https://www.zellic.io) |
+| Monethic | [Website](https://monethic.com) |
+| MoveBit | [Website](https://www.movebit.xyz) |
+| OtterSec | [Website](https://osec.io) |
+| Zellic | [Website](https://www.zellic.io) |
 
 
 
