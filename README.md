@@ -68,12 +68,7 @@
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
 | Rekt News overview of the Cetus Protocol exploit                             | [Link](https://rekt.news/cetus-rekt) |
-| Dedaub technical analysis of the Cetus integer overflow bug                  | [Link](https://dedaub.com/blog/the-cetus-amm-200m-hack-how-a-flawed-overflow-check-led-to-catastrophic-loss/) |
-| Halborn explanation of the Cetus exploit mechanics                           | [Link](https://www.halborn.com/blog/post/explained-the-cetus-hack-may-2025) |
 | Merkle Science analysis of the shared library vulnerability                  | [Link](https://www.merklescience.com/blog/hack-track-how-a-shared-library-bug-triggered-the-223m-cetus-hack) |
-| Verichains technical breakdown of the Cetus hack                             | [Link](https://blog.verichains.io/p/cetus-protocol-hacked-analysis) |
-| Crypto.News summary of the Cetus Sui exploit                                 | [Link](https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/) |
-| CCN news coverage of the Cetus exploit                                       | [Link](https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/) |
 | Analysis of a Move permission-validation vulnerability by SlowMist          | [Link](https://slowmist.medium.com/is-the-move-language-secure-the-typus-permission-validation-vulnerability-755a5175f7c3) |
 | MoveBit explanation of vulnerabilities discovered in Bluefin                | [Link](https://www.movebit.xyz/blog/post/Bluefin-vulnerabilities-explanation-1.html) |
 | MoveBit writeup on fixing a Sui cross-chain protocol vulnerability           | [Link](https://www.movebit.xyz/blog/post/MoveBit-Discovers-and-Helps-Fix-Vulnerability-in-Sui-Cross-Chain-Protocol-20241012.html) |
