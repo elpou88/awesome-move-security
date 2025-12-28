@@ -52,41 +52,37 @@
 
 ## Sui Public Audit Reports
 
-| Protocol | Auditor(s) | Report Link |
-|----------|-----------|-------------|
-| **Cetus Protocol** | MoveBit | [PDF](https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Sui%20Audit%20Report%20by%20MoveBit.pdf) |
-| **Cetus Protocol** | OtterSec | [PDF](https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Sui%20Audit%20Report%20by%20OtterSec.pdf) |
-| **Cetus Protocol** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/CetusProtocol%20-%20Zellic%20Audit%20Report.pdf) |
-| **Suilend** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Suilend%20-%20Zellic%20Audit%20Report.pdf) |
-| **Bucket Protocol** | OtterSec, MoveBit | [GitHub](https://github.com/Bucket-Protocol/Audit) |
-| **KriyaDEX** | MoveBit | [PDF](https://github.com/movebit/Sampled-Audit-Reports/blob/main/reports/KriyaDEX-Smart-Contract-Audit-Report.pdf) |
-| **Streamflow (Sui)** | MoveBit | [PDF](http://movebit.xyz/reports/Streamflow-Final-Audit-Report.pdf) |
-| **Chirp Network** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Chirp%20Network%20-%20Zellic%20Audit%20Report.pdf) |
-| **Magma Finance** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Magma%20Finance%20-%20Zellic%20Audit%20Report.pdf) |
-| **Garden Move Deploy** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Garden%20Move%20Deploy%20-%20Zellic%20Audit%20Report.pdf) |
-| **Magna Airlock** | Zellic | [PDF](https://github.com/Zellic/publications/blob/master/Magna%20Airlock%20-%20Zellic%20Audit%20Report.pdf) |
-| **Sui AMM Swap** | MoveBit | [PDF](https://movebit.xyz/file/Sui-AMM-swap-Contracts-Audit-Report.pdf) |
-| **Scallop Lend** | Zellic, OtterSec, MoveBit | [Docs](https://docs.scallop.io/protocol/auditing) |
-| **Move and Sui Security Assessment** | Zellic | [PDF](https://github.com/sui-foundation/security-audits/blob/main/docs/Move%20and%20Sui%20Security%20Assessment%20-%20Zellic%20Audit%20Report.pdf) |
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Cetus Protocol audited by MoveBit                                           | https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Sui%20Audit%20Report%20by%20MoveBit.pdf |
+| Cetus Protocol audited by OtterSec                                          | https://github.com/CetusProtocol/Audit/blob/main/Cetus%20Sui%20Audit%20Report%20by%20OtterSec.pdf |
+| Cetus Protocol audited by Zellic                                            | https://github.com/Zellic/publications/blob/master/CetusProtocol%20-%20Zellic%20Audit%20Report.pdf |
+| Suilend audited by Zellic                                                   | https://github.com/Zellic/publications/blob/master/Suilend%20-%20Zellic%20Audit%20Report.pdf |
+| Bucket Protocol audited by OtterSec and MoveBit                             | https://github.com/Bucket-Protocol/Audit |
+| KriyaDEX audited by MoveBit                                                 | https://github.com/movebit/Sampled-Audit-Reports/blob/main/reports/KriyaDEX-Smart-Contract-Audit-Report.pdf |
+| Streamflow on Sui audited by MoveBit                                        | http://movebit.xyz/reports/Streamflow-Final-Audit-Report.pdf |
+| Chirp Network audited by Zellic                                             | https://github.com/Zellic/publications/blob/master/Chirp%20Network%20-%20Zellic%20Audit%20Report.pdf |
+| Magma Finance audited by Zellic                                             | https://github.com/Zellic/publications/blob/master/Magma%20Finance%20-%20Zellic%20Audit%20Report.pdf |
+| Garden Move Deploy audited by Zellic                                        | https://github.com/Zellic/publications/blob/master/Garden%20Move%20Deploy%20-%20Zellic%20Audit%20Report.pdf |
+| Magna Airlock audited by Zellic                                             | https://github.com/Zellic/publications/blob/master/Magna%20Airlock%20-%20Zellic%20Audit%20Report.pdf |
+| Sui AMM Swap audited by MoveBit                                             | https://movebit.xyz/file/Sui-AMM-swap-Contracts-Audit-Report.pdf |
+| Scallop Lend audited by Zellic, OtterSec, and MoveBit                       | https://docs.scallop.io/protocol/auditing |
+| Move and Sui security assessment audited by Zellic                          | https://github.com/sui-foundation/security-audits/blob/main/docs/Move%20and%20Sui%20Security%20Assessment%20-%20Zellic%20Audit%20Report.pdf |
 
 ---
 
 ## Sui Exploits and Incidents
 
-### Major Sui Exploits
+| Description                                                                 | Link |
+|-----------------------------------------------------------------------------|------|
+| Rekt News overview explaining the Cetus Protocol hack and its impact        | https://rekt.news/cetus-rekt |
+| Dedaub technical breakdown of the integer overflow root cause               | https://dedaub.com/blog/the-cetus-amm-200m-hack-how-a-flawed-overflow-check-led-to-catastrophic-loss/ |
+| Halborn explanation of how the Cetus exploit occurred on Sui                | https://www.halborn.com/blog/post/explained-the-cetus-hack-may-2025 |
+| Merkle Science analysis of the shared library vulnerability                 | https://www.merklescience.com/blog/hack-track-how-a-shared-library-bug-triggered-the-223m-cetus-hack |
+| Verichains technical analysis of the Cetus Protocol exploit                 | https://blog.verichains.io/p/cetus-protocol-hacked-analysis |
+| Crypto.News coverage summarizing the Cetus Sui exploit                      | https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/ |
+| CCN news coverage reporting details of the Cetus exploit                    | https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/ |
 
-#### Cetus Protocol Hack - May 2025
-- **Amount Lost:** ~$223 million (largest Move ecosystem hack)
-- **Amount Recovered:** $162 million frozen by validators
-- **Root Cause:** Integer overflow in `checked_shlw` function within integer-mate library
-- **Post-Mortems:**
-  - [Rekt News Analysis](https://rekt.news/cetus-rekt)
-  - [Dedaub Technical Analysis](https://dedaub.com/blog/the-cetus-amm-200m-hack-how-a-flawed-overflow-check-led-to-catastrophic-loss/)
-  - [Halborn Explanation](https://www.halborn.com/blog/post/explained-the-cetus-hack-may-2025)
-  - [Merkle Science Analysis](https://www.merklescience.com/blog/hack-track-how-a-shared-library-bug-triggered-the-223m-cetus-hack)
-  - [Verichains Analysis](https://blog.verichains.io/p/cetus-protocol-hacked-analysis)
-  - [Crypto News Coverage](https://crypto.news/cetus-protocol-hack-sui-exploit-full-breakdown/)
-  - [CCN Coverage](https://www.ccn.com/news/crypto/sui-cetus-260m-exploit/)
 
 ---
 
