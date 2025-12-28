@@ -47,6 +47,7 @@
 | Bluefin Vulnerabilities Explanation | MoveBit | [Blog](https://www.movebit.xyz/blog/post/Bluefin-vulnerabilities-explanation-1.html) |
 | MoveBit Discovers Vulnerability in Sui Cross-Chain Protocol | MoveBit | [Blog](https://www.movebit.xyz/blog/post/MoveBit-Discovers-and-Helps-Fix-Vulnerability-in-Sui-Cross-Chain-Protocol-20241012.html) |
 
+
 ---
 
 ## Sui Security Tools
@@ -140,6 +141,11 @@
 | Title | Source | Link |
 |-------|--------|------|
 | Move Security Guidelines | Aptos Official | [Docs](https://aptos.dev/build/smart-contracts/move-security-guidelines) |
+
+https://medium.com/@monethic/move-demistyfied-part-3-vulnerabilities-in-storage-and-access-control-checks-8634cc1d114d
+https://medium.com/@monethic/move-demystified-part-2-structs-storage-and-cap-abilities-a60bf6b0b399
+https://medium.com/@monethic/aptos-move-demystified-part-1-helloworld-module-873090be5fa4
+https://medium.com/@monethic/aptos-move-demystified-part-1-helloworld-module-873090be5fa4
 
 ### Vulnerability Analysis
 
