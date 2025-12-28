@@ -27,9 +27,9 @@
 
 ---
 
-# SUI MOVE SECURITY
+## SUI MOVE SECURITY
 
-## Sui Security Articles
+### Sui Security Articles
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -44,7 +44,7 @@
 
 ---
 
-## Sui Public Audit Reports
+### Sui Public Audit Reports
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -66,7 +66,7 @@
 
 ---
 
-## Sui Exploits and Incidents
+### Sui Exploits and Incidents
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -81,7 +81,7 @@
 
 ---
 
-## Sui CTFs and Challenges
+### Sui CTFs and Challenges
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -97,9 +97,9 @@
 
 ---
 
-# APTOS MOVE SECURITY
+## APTOS MOVE SECURITY
 
-## Aptos Security Articles
+### Aptos Security Articles
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -113,7 +113,7 @@
 
 
 
-## Aptos Public Audit Reports
+### Aptos Public Audit Reports
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -140,7 +140,7 @@
 
 ---
 
-## Aptos CTFs and Challenges
+### Aptos CTFs and Challenges
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -155,7 +155,7 @@
 
 ---
 
-## Aptos Exploits and Incidents
+### Aptos Exploits and Incidents
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -169,9 +169,9 @@
 
 ---
 
-# GENERAL MOVE SECURITY
+## GENERAL MOVE SECURITY
 
-## General Move Security Articles
+### General Move Security Articles
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -192,7 +192,7 @@
 
 ---
 
-## Cheatsheets and Quick References
+### Cheatsheets and Quick References
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -206,9 +206,9 @@
 
 
 
-## Security Audit Firms
+### Security Audit Firms
 
-### Well known Move audit providers
+#### Well known Move audit providers
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
@@ -221,7 +221,7 @@
 
 ---
 
-## Contributing
+### Contributing
 
 This resource is maintained to help the Move security community. To contribute:
 
@@ -232,7 +232,7 @@ This resource is maintained to help the Move security community. To contribute:
 
 ---
 
-## Disclaimer
+### Disclaimer
 
 This compilation is for educational and research purposes only. Links are provided for reference and do not constitute endorsement. Always verify information independently and conduct your own security assessments. Security vulnerabilities should be reported through official bug bounty channels, not exploited.
 
