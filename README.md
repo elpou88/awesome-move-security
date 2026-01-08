@@ -35,7 +35,7 @@
 |-----------------------------------------------------------------------------|------|
 | Guide introducing how to audit Sui Move smart contracts by SlowMist         | [Link](https://slowmist.medium.com/slowmist-introduction-to-auditing-sui-move-contracts-da005149f6bc) |
 | Explanation of Sui object security principles and best practices by MoveBit | [Link](https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html) |
-
+| SuiVulnLab by Monethic | [Link](https://medium.com/@monethic/sui-move-security-workshop-writeup-material-480c5e7d1da3) |
 
 
 
@@ -184,6 +184,7 @@
 
 | Description                                                                 | Link |
 |-----------------------------------------------------------------------------|------|
+| [@MoveMaverick](https://x.com/MoveMav)'s Move Security Database             | [Link](https://movemaverick.github.io/move-vulnerability-database/) |
 | Sui Move security cheatsheet for auditors and developers                    | [Link](https://github.com/darshan-06/Sui-Move-cheat-sheet/blob/main/sui_move_security_cheatsheet.md) |
 | Curated repository of Move audit resources                                  | [Link](https://github.com/0xriazaka/Move-Audit-Resources) |
 | Public database of real-world Zellic audit findings                         | [Link](https://reports.zellic.io/findings) |
